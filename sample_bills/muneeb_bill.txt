@@ -1,0 +1,104 @@
+================================================================================
+                  ADVOCATE CHRIST MEDICAL CENTER
+                   4440 W. 95th St., Oak Lawn, IL 60453
+                        Phone: (708) 684-8000
+                        Tax ID: 36-3200841
+                        NPI: 1376524809
+================================================================================
+
+                         ITEMIZED HOSPITAL BILL
+                         *** PATIENT COPY ***
+
+--------------------------------------------------------------------------------
+PATIENT INFORMATION
+--------------------------------------------------------------------------------
+Patient Name:       MUNEEB A. RAHMAN
+Date of Birth:      11/30/1980
+Patient ID:         PT-2026-55913
+Account Number:     ACCT-2026-67204
+Insurance:          Cigna HealthSpring PPO
+Insurance ID:       CIG-IL-3381047
+Group Number:       GRP-22078
+
+Admitting Physician:  Dr. Linda C. Okafor, MD
+                      NPI: 1038274651
+                      Specialty: Endocrinology & Diabetes Management
+
+Primary Diagnosis:    E11.65 - Type 2 diabetes mellitus with hyperglycemia
+Secondary Diagnosis:  E78.5 - Hyperlipidemia, unspecified
+                      I10 - Essential (primary) hypertension
+
+Date of Service:    April 10, 2026
+Visit Type:         Outpatient Hospital Clinic - Diabetes Management
+Appointment Time:   04/10/2026 at 10:00 AM
+Discharge Time:     04/10/2026 at 2:30 PM
+
+--------------------------------------------------------------------------------
+ITEMIZED CHARGES
+--------------------------------------------------------------------------------
+
+LINE  DATE        CPT CODE  DESCRIPTION                              QTY   AMOUNT
+----  ----------  --------  -------------------------------------   ----  --------
+001   04/10/2026  99214     Office Visit, Established, Moderate      1    $285.00
+002   04/10/2026  99214     Office Visit, Established, Moderate      1    $285.00  ** SEE NOTE A
+003   04/10/2026  83036     Hemoglobin A1c (HbA1c)                   1    $62.00
+004   04/10/2026  80048     Basic Metabolic Panel (BMP)              1    $118.00
+005   04/10/2026  82947     Glucose, Quantitative                    1    $48.00   ** SEE NOTE B
+006   04/10/2026  82310     Calcium, Total                           1    $40.00   ** SEE NOTE B
+007   04/10/2026  84132     Potassium, Serum                         1    $42.00   ** SEE NOTE B
+008   04/10/2026  84295     Sodium, Serum                            1    $38.00   ** SEE NOTE B
+009   04/10/2026  82565     Creatinine, Blood                        1    $40.00   ** SEE NOTE B
+010   04/10/2026  84520     BUN (Blood Urea Nitrogen)                1    $36.00   ** SEE NOTE B
+011   04/10/2026  97802     Medical Nutrition Therapy, 60 min        1    $195.00  ** SEE NOTE C
+012   04/10/2026  97803     Medical Nutrition Therapy, add 30 min    1     $98.00  ** SEE NOTE D
+013   04/10/2026  J1817     Insulin (Regular) per 50 units          20    $380.00  ** SEE NOTE E
+014   04/10/2026  95250     CGM Sensor Placement & Training          1    $420.00  ** SEE NOTE F
+015   04/10/2026  82728     Ferritin                                  1     $58.00
+016   04/10/2026  84443     TSH (Thyroid Stimulating Hormone)        1     $88.00
+017   04/10/2026  84100     Phosphate, Serum                         1     $36.00  ** SEE NOTE B
+018   04/10/2026  85027     CBC without Differential                  1     $55.00
+019   04/10/2026  36415     Collection of venous blood specimen      1     $22.00
+020   04/10/2026            Clinic Fee - Outpatient                  1    $175.00
+
+--------------------------------------------------------------------------------
+CHARGE SUMMARY
+--------------------------------------------------------------------------------
+Total Charges:                                                      $2,621.00
+
+                         *** BILLING NOTES ***
+NOTE A: CPT 99214 (Office Visit, Established Patient, Moderate Complexity)
+        billed twice on 04/10/2026 by the same physician (Dr. Okafor) in the
+        same clinic. Only one office visit was documented in the encounter
+        notes. The second charge is a duplicate.
+NOTE B: CPT codes 82947 (Glucose), 82310 (Calcium), 84132 (Potassium), 84295
+        (Sodium), 82565 (Creatinine), 84520 (BUN), and 84100 (Phosphate) are
+        component tests of the Basic Metabolic Panel (CPT 80048) billed on
+        Line 004. Per CMS NCCI Lab Panel rules (LAB-001), individual component
+        tests of a billed panel cannot be separately billed on the same
+        date of service. Seven individual components billed on top of BMP
+        panel constitute lab unbundling.
+NOTE C: CPT 97802 (Medical Nutrition Therapy, initial 60 min) billed on
+        04/10/2026. Dietitian progress note documents a 30-minute MNT session
+        only. Billing for 60 minutes when only 30 minutes were documented
+        and performed constitutes upcoding/time-based billing fraud.
+NOTE D: CPT 97803 (MNT, each additional 30 min) billed in addition to the
+        already-upcoded 97802. With only a 30-minute session documented,
+        neither an additional 30-minute unit nor the 60-minute base code
+        is justified. This add-on charge is entirely unsupported.
+NOTE E: CPT J1817 (Insulin, per 50 units) billed at quantity 20 (= 1,000
+        units billed). Pharmacy administration record and MAR (Medication
+        Administration Record) confirm that 10 units of insulin were
+        administered subcutaneously during the visit. Billing 20 units
+        when 10 units were administered is a gross quantity error (10x
+        over-billing in units).
+NOTE F: CPT 95250 (Ambulatory CGM Sensor Placement and Patient Training)
+        billed on 04/10/2026. Patient's record indicates a standard
+        fingerstick glucometer was dispensed, not a continuous glucose
+        monitoring (CGM) device. The CGM placement and training session
+        did not occur. Patient confirms they received a glucometer only.
+
+                         *** END OF ITEMIZED BILL ***
+================================================================================
+For billing inquiries: billing@advocatehealth.com | (708) 684-4040
+Payment due within 30 days of statement date.
+================================================================================

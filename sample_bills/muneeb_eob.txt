@@ -1,0 +1,111 @@
+================================================================================
+                       CIGNA HEALTHSPRING PPO
+                   900 Cottage Grove Rd., Bloomfield, CT 06002
+                       Customer Service: 1-800-244-6224
+                       www.cigna.com
+================================================================================
+
+                    EXPLANATION OF BENEFITS (EOB)
+                    This is NOT a bill. Please retain for your records.
+
+--------------------------------------------------------------------------------
+MEMBER INFORMATION
+--------------------------------------------------------------------------------
+Member Name:          MUNEEB A. RAHMAN
+Member ID:            CIG-IL-3381047
+Group Number:         GRP-22078
+Group Name:           Rahman Family Small Business Plan
+Plan Type:            Cigna HealthSpring PPO Bronze
+Claim Number:         CLM-2026-CIG-104738
+Date Processed:       April 22, 2026
+
+--------------------------------------------------------------------------------
+PROVIDER INFORMATION
+--------------------------------------------------------------------------------
+Provider:             ADVOCATE CHRIST MEDICAL CENTER
+Provider NPI:         1376524809
+Claim Dates:          April 10, 2026
+
+--------------------------------------------------------------------------------
+BENEFIT EXPLANATION
+--------------------------------------------------------------------------------
+
+LINE  CPT     SERVICE DESCRIPTION              BILLED    ALLOWED  DISCOUNT  PLAN PAID  COPAY/COINS
+----  ------  ------------------------------  ---------  -------  --------  ---------  -----------
+001   99214   Office Visit, Established        $285.00   $198.00   $87.00    $148.50     $49.50
+002   99214   Office Visit (DUP)               $285.00     $0.00  $285.00      $0.00      $0.00  (duplicate - denied)
+003   83036   HbA1c                             $62.00    $44.00   $18.00     $33.00     $11.00
+004   80048   Basic Metabolic Panel            $118.00    $84.00   $34.00     $63.00     $21.00
+005   82947   Glucose, Quantitative             $48.00     $0.00   $48.00      $0.00      $0.00  (component of 80048 - denied)
+006   82310   Calcium, Total                    $40.00     $0.00   $40.00      $0.00      $0.00  (component of 80048 - denied)
+007   84132   Potassium, Serum                  $42.00     $0.00   $42.00      $0.00      $0.00  (component of 80048 - denied)
+008   84295   Sodium, Serum                     $38.00     $0.00   $38.00      $0.00      $0.00  (component of 80048 - denied)
+009   82565   Creatinine, Blood                 $40.00     $0.00   $40.00      $0.00      $0.00  (component of 80048 - denied)
+010   84520   BUN                               $36.00     $0.00   $36.00      $0.00      $0.00  (component of 80048 - denied)
+011   97802   Medical Nutrition Therapy 60 min $195.00   $138.00   $57.00    $103.50     $34.50
+012   97803   MNT Additional 30 min             $98.00    $68.00   $30.00     $51.00     $17.00
+013   J1817   Insulin per 50 units x20         $380.00   $190.00  $190.00    $142.50     $47.50  (allowed 10 units per MAR)
+014   95250   CGM Sensor & Training            $420.00     $0.00  $420.00      $0.00      $0.00  (no order/documentation - denied)
+015   82728   Ferritin                           $58.00    $40.00   $18.00     $30.00     $10.00
+016   84443   TSH                               $88.00    $62.00   $26.00     $46.50     $15.50
+017   84100   Phosphate, Serum                  $36.00     $0.00   $36.00      $0.00      $0.00  (component of 80048 - denied)
+018   85027   CBC without Differential           $55.00    $38.00   $17.00     $28.50      $9.50
+019   36415   Venous Blood Collection            $22.00    $16.00    $6.00     $12.00      $4.00
+020   N/A     Outpatient Clinic Fee            $175.00   $124.00   $51.00     $93.00     $31.00
+----  ------  ------------------------------  ---------  -------  --------  ---------  -----------
+
+--------------------------------------------------------------------------------
+BENEFIT SUMMARY
+--------------------------------------------------------------------------------
+Total Amount Billed by Provider:                                    $2,621.00
+Total Contractual Discounts/Adjustments:                           -$1,565.00
+Total Amount Plan Allowed:                                          $1,056.00
+Total Amount Plan Paid (75% of allowed):                              $792.00  <-- Insurance Paid
+Total Member Responsibility (25% coinsurance):                        $264.00  <-- Correct Patient Owes
+
+--------------------------------------------------------------------------------
+MEMBER BALANCE DUE TO PROVIDER
+--------------------------------------------------------------------------------
+  Per EOB Calculation: $1,056.00 - $792.00 = $264.00
+  Amount Provider is Billing Patient:                                 $625.00  *** DISCREPANCY ***
+
+  NOTE: The amount the provider is billing you ($625.00) does NOT match
+  your calculated patient responsibility ($264.00) per this EOB.
+  DIFFERENCE: $361.00 potential balance billing error.
+
+  Your deductible for this plan year: $1,500.00
+  Deductible met to date: $892.00 (remaining: $608.00)
+  Out-of-pocket maximum remaining: $3,108.00
+
+  DENIED LINES:
+  - Line 002 (99214): Denied - Duplicate charge, same CPT, same date, same provider.
+  - Lines 005-010, 017 (82947, 82310, 84132, 84295, 82565, 84520, 84100):
+    Denied - CMS NCCI Lab Panel Rule LAB-001. All are component tests of
+    Basic Metabolic Panel (80048) billed on same date. Cannot bill individually.
+  - Line 014 (95250): Denied - No physician order on file. Provider records
+    confirm standard glucometer dispensed, not CGM device. Service not rendered.
+  - Line 013 (J1817): Allowed for 10 units (per MAR). Billed quantity of
+    20 units (1,000 total units) is unsupported by clinical documentation.
+
+--------------------------------------------------------------------------------
+IMPORTANT NOTICES
+--------------------------------------------------------------------------------
+This is an in-network provider. Balance billing beyond your calculated
+coinsurance is prohibited under your plan and Illinois state law.
+
+Under the No Surprises Act (effective Jan 1, 2022), you have the right to
+dispute unexpected medical bills. Contact us at 1-800-244-6224.
+
+If you believe there is a billing error, you have 180 days from the date
+of this EOB to dispute charges.
+
+--------------------------------------------------------------------------------
+PROVIDER REMITTANCE SUMMARY
+--------------------------------------------------------------------------------
+Provider was paid:     $792.00
+Check/EFT Number:      EFT-2026-CIG-57291
+Payment Date:          April 24, 2026
+
+================================================================================
+Questions? Call Member Services: 1-800-244-6224 (Mon-Fri 8am-8pm CT)
+================================================================================

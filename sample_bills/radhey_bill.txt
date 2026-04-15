@@ -1,0 +1,93 @@
+================================================================================
+                   NORTHWESTERN MEMORIAL HOSPITAL
+                    251 E. Huron St., Chicago, IL 60611
+                        Phone: (312) 926-2000
+                        Tax ID: 36-2170858
+                        NPI: 1104819786
+================================================================================
+
+                         ITEMIZED HOSPITAL BILL
+                         *** PATIENT COPY ***
+
+--------------------------------------------------------------------------------
+PATIENT INFORMATION
+--------------------------------------------------------------------------------
+Patient Name:       RADHEY K. SHARMA
+Date of Birth:      08/22/1971
+Patient ID:         PT-2026-61042
+Account Number:     ACCT-2026-91003
+Insurance:          Aetna Better Health PPO
+Insurance ID:       AET-IL-7743920
+Group Number:       GRP-88301
+
+Admitting Physician:  Dr. Marcus J. Holt, MD
+                      NPI: 1457839201
+                      Specialty: Orthopedic Surgery
+
+Primary Diagnosis:    M17.11 - Primary osteoarthritis, right knee
+Secondary Diagnosis:  Z96.651 - Presence of right artificial knee joint (post-op)
+
+Date of Service:    April 2, 2026
+Admission:          04/02/2026 at 06:30 AM (elective surgical admission)
+Discharge:          04/04/2026 at 11:00 AM
+Actual Stay:        04/02/2026 to 04/03/2026 (1 overnight stay)
+
+--------------------------------------------------------------------------------
+ITEMIZED CHARGES
+--------------------------------------------------------------------------------
+
+LINE  DATE        CPT CODE  DESCRIPTION                              QTY   AMOUNT
+----  ----------  --------  -------------------------------------   ----  --------
+001   04/02/2026  27447     Total Knee Arthroplasty, Right           1  $14,200.00
+002   04/02/2026  29881     Knee Arthroscopy w/ Meniscectomy         1   $3,100.00  ** SEE NOTE A
+003   04/02/2026  00400     Anesthesia, integ/musculo/extremity      1   $1,850.00
+004   04/02/2026  L8699     Knee Implant Prosthesis (units)          2   $5,600.00  ** SEE NOTE B
+005   04/02/2026  97110     Therapeutic Exercise (PT, 15 min)        1     $95.00
+006   04/02/2026  97110     Therapeutic Exercise (PT, 15 min)        1     $95.00  ** SEE NOTE C
+007   04/02/2026  20610     Aspiration/Injection, Major Joint        1    $215.00
+008   04/02/2026  J7325     Hyaluronan (per dose)                    1    $310.00
+009   04/03/2026  99232     Subsequent Hospital Care, Moderate       1    $195.00  ** SEE NOTE D
+010   04/03/2026  99232     Subsequent Hospital Care, Moderate       1    $195.00  ** SEE NOTE E
+011   04/03/2026  97002     PT Re-evaluation                         1    $145.00  ** SEE NOTE F
+012   04/02/2026  72148     MRI Lumbar Spine w/o contrast            1    $980.00
+013   04/02/2026  27370     Injection, Knee Arthrogram               1    $275.00
+014   04/02/2026  96360     IV Infusion, Hydration, initial          1    $185.00
+015   04/02/2026  J1644     Heparin Sodium (per 1000 units)          5    $125.00
+016   04/02/2026  J2001     Lidocaine HCl (per 10ml)                 2     $48.00
+017   04/02/2026            Room & Board - Surgical/Orthopedic       2  $3,200.00  ** SEE NOTE G
+018   04/02/2026            Operating Room Services                  1  $4,500.00
+019   04/02/2026            Surgical Supplies & Disposables          1    $820.00
+020   04/02/2026            Pharmacy - Oral Medications              1    $230.00
+
+--------------------------------------------------------------------------------
+CHARGE SUMMARY
+--------------------------------------------------------------------------------
+Total Charges:                                                     $36,363.00
+
+                         *** BILLING NOTES ***
+NOTE A: CPT 29881 (Knee Arthroscopy with Meniscectomy) billed in addition to
+        27447 (Total Knee Arthroplasty). Per CMS NCCI, arthroscopy of the knee
+        is bundled into the global arthroplasty code and cannot be billed
+        separately on the same operative session by the same surgeon.
+NOTE B: Knee implant prosthesis billed as quantity 2 (bilateral). Patient
+        underwent RIGHT knee replacement only. Only 1 implant unit was used
+        and documented in the operative report.
+NOTE C: CPT 97110 (Therapeutic Exercise) billed twice on 04/02/2026 by the
+        same PT provider. Only one 15-minute session was conducted and
+        documented in the physical therapy notes for day of surgery.
+NOTE D: CPT 99232 billed twice on 04/03/2026 - Lines 009 and 010 are identical
+        subsequent hospital care charges on the same date by the same physician.
+        Only one physician visit was documented in the progress notes.
+NOTE E: Duplicate of Line 009 (same CPT, same date, same provider).
+NOTE F: CPT 97002 (PT Re-evaluation) billed on 04/03/2026. Patient was
+        discharged at 11:00 AM. Physical therapy re-evaluation was not
+        conducted per nursing notes and PT department schedule. Patient
+        has no recollection of a separate re-evaluation visit.
+NOTE G: Admission 04/02 to 04/03/2026 = 1 overnight stay. Bill reflects
+        2 nights of room & board at $1,600/night. Only 1 night is appropriate.
+
+                         *** END OF ITEMIZED BILL ***
+================================================================================
+For billing inquiries: billing@nm.org | (312) 926-7800
+Payment due within 30 days of statement date.
+================================================================================

@@ -1,0 +1,66 @@
+{
+  "patient_name": "JOHN A. SMITH",
+  "provider_name": "ST. MARY'S MEDICAL CENTER",
+  "date_of_service": "March 15, 2026 \u2013 March 18, 2026 (actual stay: March 15\u201316, 2026)",
+  "total_billed": 6167.0,
+  "errors_found": [
+    {
+      "line_item": "Line 002 \u2013 99283 ED Visit, Moderate Complexity E/M \u2013 $425.00 (03/15/2026)",
+      "error_type": "UNBUNDLING",
+      "description": "Two ED E/M codes, 99285 (High Complexity, Line 001) and 99283 (Moderate Complexity, Line 002), were billed by the same provider for the same encounter on 03/15/2026. CMS NCCI rule ED-001 strictly prohibits billing more than one ED E/M code per encounter. Only the highest-level code (99285) is payable. The entire charge for 99283 ($425.00 billed, $310.00 allowed) is a disallowed overcharge. The insurer erroneously paid both lines.",
+      "estimated_overcharge_amount": 425.0,
+      "regulation_or_rule_violated": "CMS NCCI Rule ED-001; CMS Claims Processing Manual, Chapter 12, Section 30.6.9"
+    },
+    {
+      "line_item": "Line 004 \u2013 85025 CBC with Auto Differential (duplicate) \u2013 $75.00 (03/15/2026)",
+      "error_type": "DUPLICATE_CHARGE",
+      "description": "CPT 85025 (CBC with auto differential) was billed twice on 03/15/2026 (Lines 003 and 004). Unless two separate, independently documented CBC specimens were drawn and analyzed at different times with clinical justification, billing the same lab code twice on the same date for the same patient is a duplicate charge. The bill itself flags this as 'NOTE B.' There is no documented clinical rationale on the bill for a repeat CBC. The duplicate charge ($75.00 billed) should be reversed.",
+      "estimated_overcharge_amount": 75.0,
+      "regulation_or_rule_violated": "CMS Claims Processing Manual, Chapter 1, Section 80 \u2013 Duplicate Billing; CMS NCCI Policy Manual Chapter 9 \u2013 Pathology"
+    },
+    {
+      "line_item": "Line 014 \u2013 84132 Potassium, Serum \u2013 $42.00; Line 015 \u2013 84295 Sodium, Serum \u2013 $38.00; Line 016 \u2013 82565 Creatinine, Blood \u2013 $40.00 (all 03/15/2026)",
+      "error_type": "UNBUNDLING",
+      "description": "CPT codes 84132 (Potassium), 84295 (Sodium), and 82565 (Creatinine) are all component tests explicitly included within CPT 80053 (Comprehensive Metabolic Panel), which was also billed on the same date (Line 013). Per CMS NCCI LAB-001, when a panel code is billed, its individual component tests cannot be billed separately. Billing both the panel and individual components is classic lab unbundling. All three individual component charges ($120.00 combined billed) must be reversed.",
+      "estimated_overcharge_amount": 120.0,
+      "regulation_or_rule_violated": "CMS NCCI Rule LAB-001; CMS NCCI Policy Manual Chapter 9 \u2013 Clinical Lab Panel Unbundling; CPT panel code definition for 80053"
+    },
+    {
+      "line_item": "Line 018 \u2013 99232 Subsequent Hospital Care, Moderate \u2013 $185.00 (billed as 03/15/2026)",
+      "error_type": "DUPLICATE_CHARGE",
+      "description": "Subsequent hospital care code 99232 was billed twice: once on 03/16/2026 (Line 017) and once on 03/15/2026 (Line 018). On 03/15/2026, the patient first presented to the ED (Lines 001\u2013002 already billed as ED E/M visits). A subsequent inpatient care code (99232) cannot also be legitimately billed by the same provider on the same date as the ED E/M visit. Furthermore, billing 99232 on the date of ED presentation (03/15/2026) is duplicative and inconsistent with the patient's care timeline. The 03/15/2026 instance of 99232 ($185.00) is a duplicate/erroneous charge. The bill's own NOTE D flags this.",
+      "estimated_overcharge_amount": 185.0,
+      "regulation_or_rule_violated": "CMS Claims Processing Manual, Chapter 1, Section 80 \u2013 Duplicate Billing; CMS Claims Processing Manual, Chapter 12, Section 30.6.7 \u2013 one E/M per day per provider; CMS NCCI Rule EM-001"
+    },
+    {
+      "line_item": "Line 019 \u2013 0732T Holter Monitor Reading (24 hr) \u2013 $275.00 (03/16/2026)",
+      "error_type": "SERVICE_NOT_RENDERED",
+      "description": "CPT 0732T (Holter Monitor Reading, 24-hour) was billed on 03/16/2026, but per the bill's own NOTE F, this service was not ordered by the attending physician and the patient has no recollection of receiving this service. Billing for services not rendered or not ordered is a fraudulent billing practice under the False Claims Act. This charge ($275.00) must be reversed in its entirety. The insurer also paid $168.00 for this service, which constitutes an overpayment that should be recovered.",
+      "estimated_overcharge_amount": 275.0,
+      "regulation_or_rule_violated": "False Claims Act (31 U.S.C. \u00a7\u00a7 3729\u20133733); CMS Medicare Claims Processing Manual, Chapter 1, Section 80 \u2013 Fraudulent/Abusive Billing; OIG Compliance Program Guidance for Hospitals"
+    },
+    {
+      "line_item": "Line 020 \u2013 Room & Board, Med/Surg \u2013 Qty 3 nights \u2013 $2,400.00 (billed at $800/night)",
+      "error_type": "INCORRECT_QUANTITY",
+      "description": "The bill charges for 3 nights of Room & Board (03/15\u201303/18/2026) at $800/night. However, per the bill's own admission and discharge records, the patient was admitted on 03/15/2026 and discharged on 03/16/2026, constituting only 1 overnight stay. Billing 3 nights when only 1 night occurred is a gross quantity error. The correct charge should be $800.00 (1 night). The overcharge is $1,600.00 (2 extra nights \u00d7 $800). The EOB also incorrectly allowed $1,800.00 (3 nights \u00d7 $600 allowed rate), further confirming the error propagated through to the payer.",
+      "estimated_overcharge_amount": 1600.0,
+      "regulation_or_rule_violated": "CMS Conditions of Participation \u2013 Medical Records (42 C.F.R. \u00a7 482.24); CMS Claims Processing Manual, Chapter 1, Section 80 \u2013 Incorrect Billing/Quantity Errors; OIG Compliance Program Guidance for Hospitals \u2013 Billing for items or services not provided as claimed"
+    },
+    {
+      "line_item": "Patient Balance Billed: $1,350.00 vs. EOB-Calculated Responsibility: $947.20",
+      "error_type": "BALANCE_BILLING",
+      "description": "The provider is billing the patient $1,350.00, but per the BlueCross BlueShield of Illinois EOB (Claim CLM-2026-IL-492018), the patient's correct coinsurance responsibility is $947.20 (20% of the $4,586.00 allowed amount, after the $3,592.80 insurance payment). The difference of $402.80 represents prohibited balance billing. As an in-network provider, St. Mary's Medical Center is contractually prohibited from billing the member any amount beyond the calculated coinsurance/copay under the PPO network agreement. This practice is also prohibited under the No Surprises Act (effective January 1, 2022) and Illinois state law. The EOB explicitly states: 'Balance billing beyond your calculated coinsurance is prohibited under your plan and Illinois state law.'",
+      "estimated_overcharge_amount": 402.8,
+      "regulation_or_rule_violated": "No Surprises Act (Consolidated Appropriations Act, 2021, Pub. L. 116-260, effective Jan. 1, 2022); Illinois Balance Billing Protection Act (215 ILCS 5/356z.3a); In-network PPO contractual agreement prohibiting balance billing; CMS Claims Processing Manual, Chapter 1, Section 30.3"
+    },
+    {
+      "line_item": "Line 001 \u2013 99285 ED Visit, High Complexity \u2013 $850.00 (03/15/2026) \u2013 Potential Upcoding",
+      "error_type": "UPCODING",
+      "description": "The patient presented with chest pain (R07.9), which is a common chief complaint. CPT 99285 is defined as an ED visit requiring 'high MDM requiring urgent evaluation.' While chest pain can justify 99285, the concurrent billing of an additional lower-level ED code (99283, Moderate Complexity) by the same provider on the same encounter suggests possible upcoding of the primary visit to 99285. The documentation should be audited to confirm that high-complexity medical decision-making was truly performed and documented per 2023 AMA E/M guidelines (history, exam, MDM or time). If documentation only supports moderate complexity, 99284 or 99283 would be the appropriate single code. Given the diagnostic workup (CBC, CMP, ECG, Chest X-Ray) there may be support for 99285, but independent chart review is required to confirm.",
+      "estimated_overcharge_amount": 0.0,
+      "regulation_or_rule_violated": "CMS NCCI Upcoding Red Flag UP-003; AMA CPT 2023 E/M Guidelines for ED Visits (99281\u201399285); CMS Claims Processing Manual, Chapter 12, Section 30.6.9; OIG Work Plan \u2013 ED E/M Upcoding"
+    }
+  ],
+  "total_estimated_overcharge": 3082.8,
+  "summary": "A comprehensive audit of the St. Mary's Medical Center itemized bill and corresponding BCBSIL EOB for patient John A. Smith (DOS 03/15\u201303/16/2026) identified eight distinct billing errors spanning six error categories. The most financially significant errors include: (1) billing 3 nights of Room & Board for a documented 1-night stay (overcharge: $1,600.00); (2) billing two ED E/M codes for a single encounter in violation of CMS NCCI rule ED-001 ($425.00); (3) billing a Holter Monitor service that was neither ordered nor received by the patient ($275.00); (4) unbundling three CMP component lab tests already included in CPT 80053 ($120.00); (5) a duplicate CBC charge ($75.00); (6) a duplicate subsequent hospital care code on the ED date ($185.00); and (7) prohibited balance billing of $402.80 above the EOB-calculated patient responsibility in violation of the No Surprises Act and Illinois law. Total estimated overcharges, excluding the upcoding flag that requires chart review, are $3,082.80, and the provider should be reported to the insurer for immediate recoupment and a potential OIG/CMS compliance referral."
+}

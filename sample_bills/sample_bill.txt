@@ -1,0 +1,88 @@
+================================================================================
+                        ST. MARY'S MEDICAL CENTER
+                         1500 Healthcare Blvd, Suite 100
+                          Springfield, IL 62701
+                          Phone: (217) 555-0100
+                          Tax ID: 37-1234567
+                          NPI: 1234567890
+================================================================================
+
+                         ITEMIZED HOSPITAL BILL
+                         *** PATIENT COPY ***
+
+--------------------------------------------------------------------------------
+PATIENT INFORMATION
+--------------------------------------------------------------------------------
+Patient Name:       JOHN A. SMITH
+Date of Birth:      05/15/1968
+Patient ID:         PT-2026-48391
+Account Number:     ACCT-2026-83741
+Insurance:          BlueCross BlueShield of Illinois
+Insurance ID:       BCB-IL-2958374
+Group Number:       GRP-74821
+
+Admitting Physician:  Dr. Sarah J. Thompson, MD
+                      NPI: 9876543210
+                      Specialty: Emergency Medicine
+
+Primary Diagnosis:    R07.9 - Chest pain, unspecified
+Secondary Diagnosis:  Z87.39 - Personal history of other musculoskeletal disorders
+
+Date of Service:    March 15, 2026
+Admission:          03/15/2026 at 08:14 AM
+Discharge:          03/18/2026 at 10:30 AM  (Billed as 3 nights)
+Actual Stay:        03/15/2026 to 03/16/2026 (1 overnight stay)
+
+--------------------------------------------------------------------------------
+ITEMIZED CHARGES
+--------------------------------------------------------------------------------
+
+LINE  DATE        CPT CODE  DESCRIPTION                             QTY   AMOUNT
+----  ----------  --------  ------------------------------------   ----  --------
+001   03/15/2026  99285     ED Visit, High Complexity E/M            1   $850.00
+002   03/15/2026  99283     ED Visit, Moderate Complexity E/M        1   $425.00  ** SEE NOTE A
+003   03/15/2026  85025     CBC with Auto Differential               1    $75.00
+004   03/15/2026  85025     CBC with Auto Differential               1    $75.00  ** SEE NOTE B
+005   03/15/2026  93000     ECG Routine 12-Lead w/ Interp            1   $210.00
+006   03/15/2026  71046     Chest X-Ray, 2 Views                     1   $320.00
+007   03/15/2026  96374     IV Therapeutic Push, Single Drug         1   $180.00
+008   03/15/2026  J3010     Fentanyl Citrate 0.1mg                   3    $45.00
+009   03/15/2026  J2270     Morphine Sulfate 10mg                    2    $62.00
+010   03/15/2026  J2405     Ondansetron HCl 1mg                      4    $88.00
+011   03/15/2026  J7030     Normal Saline 1000ml                     2    $54.00
+012   03/15/2026  J0690     Cefazolin Sodium 500mg                   2    $38.00
+013   03/15/2026  80053     Comprehensive Metabolic Panel            1   $145.00
+014   03/15/2026  84132     Potassium, Serum                         1    $42.00  ** SEE NOTE C
+015   03/15/2026  84295     Sodium, Serum                            1    $38.00  ** SEE NOTE C
+016   03/15/2026  82565     Creatinine, Blood                        1    $40.00  ** SEE NOTE C
+017   03/16/2026  99232     Subsequent Hospital Care, Moderate       1   $185.00
+018   03/15/2026  99232     Subsequent Hospital Care, Moderate       1   $185.00  ** SEE NOTE D
+019   03/16/2026  0732T     Holter Monitor Reading (24 hr)           1   $275.00  ** NOT ORDERED
+020   03/15/2026            Room & Board - Med/Surg                  3  $2,400.00  ** SEE NOTE E
+021   03/15/2026            Medical Supplies - IV, Tubing            1   $210.00
+022   03/15/2026            Nursing Services - ER                    1   $380.00
+
+--------------------------------------------------------------------------------
+CHARGE SUMMARY
+--------------------------------------------------------------------------------
+Total Charges:                                                      $6,167.00
+
+                         *** BILLING NOTES ***
+NOTE A: Both 99285 (High Complexity) and 99283 (Moderate Complexity) ED visit
+        codes billed for same encounter, same date, same provider.
+NOTE B: CPT 85025 appears twice for the same date of service (duplicate charge).
+NOTE C: CPT 84132, 84295, and 82565 are component tests of the Comprehensive
+        Metabolic Panel (80053). Billing these separately in addition to
+        the panel constitutes unbundling.
+NOTE D: Subsequent hospital care (99232) billed twice for 03/15/2026 and
+        once more for 03/16/2026.
+NOTE E: Patient was admitted overnight 03/15 and discharged 03/16/2026.
+        Only 1 night of room & board is appropriate. Billed as 3 nights ($800/night).
+NOTE F: Line 019 - Holter Monitor (0732T) was not ordered by attending physician
+        and patient has no recollection of this service.
+
+                         *** END OF ITEMIZED BILL ***
+================================================================================
+For billing inquiries: billing@stmarysmedical.org | (217) 555-0199
+Payment due within 30 days of statement date.
+================================================================================

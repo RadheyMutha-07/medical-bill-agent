@@ -1,0 +1,105 @@
+================================================================================
+                    BLUECROSS BLUESHIELD OF ILLINOIS
+                       300 E. Randolph St., Chicago, IL 60601
+                       Customer Service: 1-800-555-BCBS
+                       www.bcbsil.com
+================================================================================
+
+                    EXPLANATION OF BENEFITS (EOB)
+                    This is NOT a bill. Please retain for your records.
+
+--------------------------------------------------------------------------------
+MEMBER INFORMATION
+--------------------------------------------------------------------------------
+Member Name:          JOHN A. SMITH
+Member ID:            BCB-IL-2958374
+Group Number:         GRP-74821
+Group Name:           TechCorp Inc. Employee Health Plan
+Plan Type:            PPO Gold Plan
+Claim Number:         CLM-2026-IL-492018
+Date Processed:       March 28, 2026
+
+--------------------------------------------------------------------------------
+PROVIDER INFORMATION
+--------------------------------------------------------------------------------
+Provider:             ST. MARY'S MEDICAL CENTER
+Provider NPI:         1234567890
+Claim Dates:          March 15, 2026 - March 18, 2026
+
+--------------------------------------------------------------------------------
+BENEFIT EXPLANATION
+--------------------------------------------------------------------------------
+
+LINE  CPT     SERVICE DESCRIPTION          BILLED    ALLOWED  DISCOUNT  PLAN PAID  COPAY/COINS
+----  ------  ---------------------------  --------  -------  --------  ---------  -----------
+001   99285   ED Visit, High Complexity    $850.00   $620.00  $230.00   $496.00    $124.00
+002   99283   ED Visit, Moderate Complex   $425.00   $310.00  $115.00   $248.00    $62.00
+003   85025   CBC w/ Auto Diff             $75.00    $55.00   $20.00    $44.00     $11.00
+004   85025   CBC w/ Auto Diff (DUP)       $75.00    $55.00   $20.00    $44.00     $11.00
+005   93000   ECG 12-Lead w/ Interp        $210.00   $155.00  $55.00    $124.00    $31.00
+006   71046   Chest X-Ray 2 Views          $320.00   $235.00  $85.00    $188.00    $47.00
+007   96374   IV Therapeutic Push          $180.00   $130.00  $50.00    $104.00    $26.00
+008   J3010   Fentanyl 0.1mg x3            $45.00    $38.00   $7.00     $30.40     $7.60
+009   J2270   Morphine 10mg x2             $62.00    $52.00   $10.00    $41.60     $10.40
+010   J2405   Ondansetron 1mg x4           $88.00    $72.00   $16.00    $57.60     $14.40
+011   J7030   Normal Saline 1000ml x2      $54.00    $44.00   $10.00    $35.20     $8.80
+012   J0690   Cefazolin 500mg x2           $38.00    $30.00   $8.00     $24.00     $6.00
+013   80053   Comprehensive Metabolic Pnl  $145.00   $110.00  $35.00    $88.00     $22.00
+014   84132   Potassium, Serum             $42.00    $32.00   $10.00    $25.60     $6.40
+015   84295   Sodium, Serum                $38.00    $28.00   $10.00    $22.40     $5.60
+016   82565   Creatinine, Blood            $40.00    $30.00   $10.00    $24.00     $6.00
+017   99232   Subsequent Hospital Care     $185.00   $140.00  $45.00    $112.00    $28.00
+018   99232   Subsequent Hospital Care     $185.00   $140.00  $45.00    $112.00    $28.00
+019   0732T   Holter Monitor Reading       $275.00   $210.00  $65.00    $168.00    $42.00
+020   N/A     Room & Board (3 nights)    $2,400.00 $1,800.00 $600.00  $1,440.00   $360.00
+021   N/A     Medical Supplies             $210.00   $165.00  $45.00    $132.00    $33.00
+022   N/A     Nursing Services - ER        $380.00   $290.00  $90.00    $232.00    $58.00
+----  ------  ---------------------------  --------  -------  --------  ---------  -----------
+
+--------------------------------------------------------------------------------
+BENEFIT SUMMARY
+--------------------------------------------------------------------------------
+Total Amount Billed by Provider:                                    $6,167.00
+Total Contractual Discounts/Adjustments:                           -$1,581.00
+Total Amount Plan Allowed:                                          $4,586.00
+Total Amount Plan Paid (80% of allowed):                           $3,592.80  <-- Insurance Paid
+Total Member Responsibility (20% coinsurance):                        $947.20  <-- Correct Patient Owes
+
+--------------------------------------------------------------------------------
+MEMBER BALANCE DUE TO PROVIDER
+--------------------------------------------------------------------------------
+  Per EOB Calculation: $4,586.00 - $3,592.80 = $947.20
+  Amount Provider is Billing Patient:                               $1,350.00  *** DISCREPANCY ***
+
+  NOTE: The amount the provider is billing you ($1,350.00) does NOT match
+  your calculated patient responsibility ($947.20) per this EOB.
+  DIFFERENCE: $402.80 potential balance billing error.
+
+  Your deductible for this plan year has been met: YES
+  Out-of-pocket maximum remaining: $1,053.00
+
+--------------------------------------------------------------------------------
+IMPORTANT NOTICES
+--------------------------------------------------------------------------------
+This is an in-network provider. Balance billing beyond your calculated
+coinsurance is prohibited under your plan and Illinois state law.
+
+Under the No Surprises Act (effective Jan 1, 2022), you have the right to
+dispute unexpected medical bills. Contact us at 1-800-555-BCBS.
+
+If you believe there is a billing error, you have 180 days from the date
+of this EOB to dispute charges.
+
+Denial reason codes applied: None (all services processed as submitted)
+Note: Review of duplicate and bundled charges pending secondary review.
+
+--------------------------------------------------------------------------------
+PROVIDER REMITTANCE SUMMARY
+--------------------------------------------------------------------------------
+Provider was paid:     $3,592.80
+Check/EFT Number:      EFT-2026-BCB-72918
+Payment Date:          March 30, 2026
+
+================================================================================
+Questions? Call Member Services: 1-800-555-BCBS (Mon-Fri 8am-8pm CT)
+================================================================================

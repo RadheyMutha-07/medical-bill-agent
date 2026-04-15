@@ -1,0 +1,112 @@
+================================================================================
+                     UNITED HEALTHCARE CHOICE PLUS PPO
+                  9900 Bren Road East, Minnetonka, MN 55343
+                       Customer Service: 1-866-801-4409
+                       www.uhcprovider.com
+================================================================================
+
+                    EXPLANATION OF BENEFITS (EOB)
+                    This is NOT a bill. Please retain for your records.
+
+--------------------------------------------------------------------------------
+MEMBER INFORMATION
+--------------------------------------------------------------------------------
+Member Name:          NIKHIL R. VERMA
+Member ID:            UHC-IL-5529017
+Group Number:         GRP-33109
+Group Name:           Verma & Associates CPA Health Plan
+Plan Type:            UHC Choice Plus PPO
+Claim Number:         CLM-2026-UHC-334872
+Date Processed:       April 21, 2026
+
+--------------------------------------------------------------------------------
+PROVIDER INFORMATION
+--------------------------------------------------------------------------------
+Provider:             RUSH UNIVERSITY MEDICAL CENTER
+Provider NPI:         1487631025
+Claim Dates:          April 7, 2026 - April 9, 2026
+
+--------------------------------------------------------------------------------
+BENEFIT EXPLANATION
+--------------------------------------------------------------------------------
+
+LINE  CPT     SERVICE DESCRIPTION              BILLED      ALLOWED   DISCOUNT   PLAN PAID  COPAY/COINS
+----  ------  ------------------------------  ----------  ---------  ---------  ---------  -----------
+001   93454   Cardiac Cath, Coronary Angio     $8,500.00  $5,900.00  $2,600.00  $4,720.00  $1,180.00
+002   93571   IVUS, First Coronary Vessel      $2,200.00      $0.00  $2,200.00      $0.00      $0.00  (NCCI bundled - denied)
+003   93458   Left Heart Cath w/ Ventriculo    $3,400.00      $0.00  $3,400.00      $0.00      $0.00  (NCCI bundled w/ 93454 - denied)
+004   93000   ECG 12-Lead w/ Interp              $210.00    $148.00     $62.00    $118.40     $29.60
+005   93000   ECG 12-Lead (DUP)                  $210.00      $0.00    $210.00      $0.00      $0.00  (duplicate - denied)
+006   93320   Doppler Echo, Complete           $1,450.00      $0.00  $1,450.00      $0.00      $0.00  (not separately billable w/ 93306 - denied)
+007   93306   Echo, Transthoracic              $1,820.00  $1,280.00    $540.00  $1,024.00    $256.00
+008   99233   Subsequent Hospital Care, High     $285.00    $208.00     $77.00    $166.40     $41.60
+009   99233   Subsequent HC (DUP)                $285.00      $0.00    $285.00      $0.00      $0.00  (duplicate - denied)
+010   99291   Critical Care, 30-74 min           $720.00    $518.00    $202.00    $414.40    $103.60
+011   36200   Intro catheter, aorta              $480.00    $345.00    $135.00    $276.00     $69.00
+012   75625   Aortography, abdominal             $870.00    $620.00    $250.00    $496.00    $124.00
+013   J0150   Adenosine x4                       $340.00    $256.00     $84.00    $204.80     $51.20
+014   J1245   Dipyridamole x2                    $180.00    $132.00     $48.00    $105.60     $26.40
+015   J7050   Normal Saline x4                    $96.00     $72.00     $24.00     $57.60     $14.40
+016   J2930   Methylprednisolone x2              $145.00    $108.00     $37.00     $86.40     $21.60
+017   N/A     ICU Room & Board (3 days billed) $7,500.00  $2,500.00  $5,000.00  $2,000.00    $500.00  (allowed 1 day only per records)
+018   N/A     Cardiac Cath Lab Fee             $5,200.00  $3,640.00  $1,560.00  $2,912.00    $728.00
+019   N/A     Contrast Media & Supplies          $780.00    $560.00    $220.00    $448.00    $112.00
+020   N/A     Pharmacy                           $415.00    $302.00    $113.00    $241.60     $60.40
+----  ------  ------------------------------  ----------  ---------  ---------  ---------  -----------
+
+--------------------------------------------------------------------------------
+BENEFIT SUMMARY
+--------------------------------------------------------------------------------
+Total Amount Billed by Provider:                                   $34,086.00
+Total Contractual Discounts/Adjustments:                          -$18,497.00
+Total Amount Plan Allowed:                                         $15,589.00
+Total Amount Plan Paid (80% of allowed):                           $12,471.20  <-- Insurance Paid
+Total Member Responsibility (20% coinsurance):                      $3,117.80  <-- Correct Patient Owes
+
+--------------------------------------------------------------------------------
+MEMBER BALANCE DUE TO PROVIDER
+--------------------------------------------------------------------------------
+  Per EOB Calculation: $15,589.00 - $12,471.20 = $3,117.80
+  Amount Provider is Billing Patient:                               $5,400.00  *** DISCREPANCY ***
+
+  NOTE: The amount the provider is billing you ($5,400.00) does NOT match
+  your calculated patient responsibility ($3,117.80) per this EOB.
+  DIFFERENCE: $2,282.20 potential balance billing error.
+
+  Your deductible for this plan year has been met: YES
+  Out-of-pocket maximum remaining: $1,800.00
+
+  DENIED LINES:
+  - Line 002 (93571): Denied - NCCI Edit CARD-004. IVUS is bundled into
+    the cardiac catheterization procedure code (93454).
+  - Line 003 (93458): Denied - NCCI Edit CARD-007. Left Heart Cath is
+    a component of Coronary Angiography when billed together. Unbundling.
+  - Line 005 (93000): Denied - Duplicate charge, same CPT, same date.
+  - Line 006 (93320): Denied - Doppler Echo is integral to 93306.
+    Additionally, no separate order or documentation found.
+  - Line 009 (99233): Denied - Duplicate charge, same CPT, same date.
+  - Line 017 (ICU): Allowed for 1 day only per discharge summary.
+    2 additional ICU days billed without supporting documentation.
+
+--------------------------------------------------------------------------------
+IMPORTANT NOTICES
+--------------------------------------------------------------------------------
+This is an in-network provider. Balance billing beyond your calculated
+coinsurance is prohibited under your plan and Illinois state law.
+
+Under the No Surprises Act (effective Jan 1, 2022), you have the right to
+dispute unexpected medical bills. Contact us at 1-866-801-4409.
+
+If you believe there is a billing error, you have 180 days from the date
+of this EOB to dispute charges.
+
+--------------------------------------------------------------------------------
+PROVIDER REMITTANCE SUMMARY
+--------------------------------------------------------------------------------
+Provider was paid:     $12,471.20
+Check/EFT Number:      EFT-2026-UHC-99034
+Payment Date:          April 23, 2026
+
+================================================================================
+Questions? Call Member Services: 1-866-801-4409 (Mon-Fri 8am-8pm CT)
+================================================================================
