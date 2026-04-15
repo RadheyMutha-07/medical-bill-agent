@@ -8,6 +8,9 @@ import json
 import os
 import sys
 
+from dotenv import load_dotenv
+load_dotenv()  # loads ANTHROPIC_API_KEY from .env
+
 # ── Ensure output directory exists ────────────────────────────────────────────
 OUTPUT_DIR  = os.path.join(os.path.dirname(__file__), "output")
 OUTPUT_PDF  = os.path.join(OUTPUT_DIR, "dispute_letter.pdf")

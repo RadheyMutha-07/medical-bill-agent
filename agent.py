@@ -8,6 +8,9 @@ import re
 from typing import Any, Dict, List, Optional
 
 import anthropic
+from dotenv import load_dotenv
+
+load_dotenv()  # loads ANTHROPIC_API_KEY from .env if present
 
 from rules import get_rules_context
 
@@ -150,7 +153,7 @@ def analyze_medical_bill(
 
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=4096,
+        max_tokens=8192,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}],
     )
