@@ -1,0 +1,103 @@
+================================================================================
+                    RUSH UNIVERSITY MEDICAL CENTER
+                   1620 W. Harrison St., Chicago, IL 60612
+                         Phone: (312) 942-5000
+                         Tax ID: 36-2170490
+                         NPI: 1487631025
+================================================================================
+
+                         ITEMIZED HOSPITAL BILL
+                         *** PATIENT COPY ***
+
+--------------------------------------------------------------------------------
+PATIENT INFORMATION
+--------------------------------------------------------------------------------
+Patient Name:       NIKHIL R. VERMA
+Date of Birth:      03/10/1965
+Patient ID:         PT-2026-70281
+Account Number:     ACCT-2026-40572
+Insurance:          United Healthcare Choice Plus PPO
+Insurance ID:       UHC-IL-5529017
+Group Number:       GRP-33109
+
+Admitting Physician:  Dr. Priya S. Anand, MD
+                      NPI: 1928374650
+                      Specialty: Interventional Cardiology
+
+Primary Diagnosis:    I25.10 - Atherosclerotic heart disease, native coronary artery
+Secondary Diagnosis:  I10 - Essential (primary) hypertension
+                      E11.9 - Type 2 diabetes mellitus without complications
+
+Date of Service:    April 7, 2026
+Admission:          04/07/2026 at 07:00 AM (cardiac cath lab, elective)
+Discharge:          04/09/2026 at 09:00 AM
+Actual Stay:        04/07/2026 to 04/08/2026 (1 overnight stay - ICU observation)
+
+--------------------------------------------------------------------------------
+ITEMIZED CHARGES
+--------------------------------------------------------------------------------
+
+LINE  DATE        CPT CODE  DESCRIPTION                              QTY   AMOUNT
+----  ----------  --------  -------------------------------------   ----  --------
+001   04/07/2026  93454     Cardiac Cath, Coronary Angio             1   $8,500.00
+002   04/07/2026  93571     IVUS, First Coronary Vessel              1   $2,200.00  ** SEE NOTE A
+003   04/07/2026  93458     Left Heart Cath w/ Ventriculogram        1   $3,400.00  ** SEE NOTE B
+004   04/07/2026  93000     ECG Routine 12-Lead w/ Interp            1     $210.00
+005   04/07/2026  93000     ECG Routine 12-Lead w/ Interp            1     $210.00  ** SEE NOTE C
+006   04/07/2026  93320     Doppler Echocardiography (complete)      1   $1,450.00  ** SEE NOTE D
+007   04/07/2026  93306     Echocardiography, transthoracic          1   $1,820.00
+008   04/08/2026  99233     Subsequent Hospital Care, High Complex   1     $285.00  ** SEE NOTE E
+009   04/08/2026  99233     Subsequent Hospital Care, High Complex   1     $285.00  ** SEE NOTE F
+010   04/07/2026  99291     Critical Care, first 30-74 minutes       1     $720.00
+011   04/07/2026  36200     Intro catheter, aorta                    1     $480.00
+012   04/07/2026  75625     Aortography, abdominal                   1     $870.00
+013   04/07/2026  J0150     Adenosine (per 6 mg)                     4     $340.00
+014   04/07/2026  J1245     Dipyridamole (per 10mg)                  2     $180.00
+015   04/07/2026  J7050     Normal Saline (per 250ml)                4      $96.00
+016   04/07/2026  J2930     Methylprednisolone Sodium (per 40mg)     2     $145.00
+017   04/07/2026            ICU Room & Board (Critical Care)         3   $7,500.00  ** SEE NOTE G
+018   04/07/2026            Cardiac Catheterization Lab Fee          1   $5,200.00
+019   04/07/2026            Contrast Media & Radiology Supplies      1     $780.00
+020   04/07/2026            Pharmacy - IV & Oral Medications         1     $415.00
+
+--------------------------------------------------------------------------------
+CHARGE SUMMARY
+--------------------------------------------------------------------------------
+Total Charges:                                                     $34,086.00
+
+                         *** BILLING NOTES ***
+NOTE A: CPT 93571 (Intravascular Ultrasound, first vessel) billed separately
+        alongside CPT 93454 (Coronary Angiography). Per CMS NCCI edits
+        (CARD-004), 93571 is an integral component of the cardiac
+        catheterization procedure and cannot be billed independently when
+        performed during the same cath session by the same operator.
+NOTE B: CPT 93458 (Left Heart Catheterization with Ventriculogram) and CPT
+        93454 (Coronary Angiography) were both billed for the same cardiac
+        catheterization session. NCCI edit CARD-007 indicates that 93454
+        is a component of 93458 when performed together. Only the more
+        comprehensive code (93458) should be billed. Billing both constitutes
+        unbundling.
+NOTE C: CPT 93000 (ECG) billed twice on 04/07/2026 by the same cardiologist.
+        A pre-procedure ECG was performed. No documentation exists for a
+        second separate ECG encounter on that date.
+NOTE D: CPT 93320 (Doppler Echocardiography, complete) billed on 04/07/2026.
+        Patient underwent CPT 93306 (Transthoracic Echocardiography) which
+        already includes Doppler imaging. Additionally, nursing notes and
+        the echo lab schedule confirm no standalone Doppler echo was ordered
+        or performed separately. Patient denies receiving a separate Doppler
+        echo study.
+NOTE E: CPT 99233 (High Complexity Subsequent Care) billed twice on 04/08/2026
+        - Lines 008 and 009. Only one physician progress note on 04/08/2026
+        is documented in the chart. Duplicate charge.
+NOTE F: Duplicate of Line 008. Same provider, same date, same CPT.
+NOTE G: ICU Room & Board billed for 3 days (04/07 - 04/09 at $2,500/day).
+        Discharge summary and nursing records confirm patient was in ICU
+        observation for 1 night only (04/07 to 04/08/2026) and transferred
+        to general floor on 04/08 prior to discharge on 04/09. Only 1 ICU
+        day is billable; the other 2 days are erroneous.
+
+                         *** END OF ITEMIZED BILL ***
+================================================================================
+For billing inquiries: billing@rush.edu | (312) 942-6200
+Payment due within 30 days of statement date.
+================================================================================

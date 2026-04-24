@@ -1,0 +1,66 @@
+{
+  "patient_name": "John Martinez",
+  "provider_name": "Dallas Regional Medical Center",
+  "date_of_service": "April 3, 2026 \u2013 April 5, 2026",
+  "total_billed": 11353.0,
+  "errors_found": [
+    {
+      "line_item": "Line 001 \u2013 CPT 99213, Office/Outpt Visit Low-Mod Complexity E/M, $850.00 (04/03/2026)",
+      "error_type": "UNBUNDLING",
+      "description": "CPT 99213 and CPT 99215 were both billed on 04/03/2026 by the same provider (Dr. Kevin L. Nguyen, NPI: 2109876543) at the same facility for the same encounter. CMS NCCI rules [EM-001] permit only one E/M code per day per provider per facility. The lower-level code 99213 must be removed entirely; only the highest-level E/M code (99215) is billable. The $850.00 charge for 99213 represents an improper duplicate E/M submission resulting in an overcharge of $850.00 billed (or $620.00 at the allowed amount, with $124.00 in improper member responsibility).",
+      "estimated_overcharge_amount": 850.0,
+      "regulation_or_rule_violated": "CMS NCCI Rule [EM-001]; CMS Claims Processing Manual, Chapter 12, Section 30.6.7 \u2013 Only the highest-level E/M code may be billed per day per provider per facility."
+    },
+    {
+      "line_item": "Line 002 \u2013 CPT 99215, Office/Outpt Visit High Complexity E/M, $1,250.00 (04/03/2026)",
+      "error_type": "UPCODING",
+      "description": "CPT 99215 is defined as an established patient office or outpatient visit requiring high medical decision making (MDM), typically 40\u201354 minutes. However, this patient was admitted to the Cardiac Care Unit on 04/03/2026 for an acute MI (I21.9) \u2013 this is a hospital inpatient admission, not an office or outpatient visit. The correct billing for the initial encounter on the day of hospital admission would be an initial hospital inpatient care code (99221\u201399223), not an outpatient E/M code. Billing 99215 for an inpatient admission is a misrepresentation of the place of service and nature of the service. Additionally, this code is being billed alongside 99213 (unbundling, see Line 001). If any E/M is appropriate for 04/03/2026 at the hospital level, it should be 99222 or 99223 (initial inpatient care), not 99215.",
+      "estimated_overcharge_amount": 1250.0,
+      "regulation_or_rule_violated": "CMS Claims Processing Manual, Chapter 12, Section 30.6.7 (E/M place of service rules); CMS NCCI Rule [EM-001]; AMA CPT guidelines \u2013 99215 is restricted to office/outpatient settings; initial hospital care must be billed under 99221\u201399223 per CMS Claims Processing Manual Chapter 12, Section 30.6.8."
+    },
+    {
+      "line_item": "Line 004 \u2013 CPT 71046, described as 'ROUTINE BLOOD PANEL - METABOLIC SCREEN', $480.00 (04/03/2026)",
+      "error_type": "UPCODING",
+      "description": "CPT 71046 is the official CMS code for 'Radiologic examination, chest; 2 views' (a chest X-ray). However, the description on this line item reads 'ROUTINE BLOOD PANEL - METABOLIC SCREEN,' which is a laboratory service, not a radiology service. There is a clear mismatch between the CPT code and the billed description. Furthermore, $480.00 is grossly excessive for a 2-view chest X-ray (typical allowed ~$50\u2013$100), suggesting the price may correspond to a metabolic panel or other lab service rather than the stated CPT code. Either (a) the wrong CPT code was applied to a lab service that should have been billed under a panel code (possibly 80053 or 80048, both of which are already separately billed on Line 011), or (b) the description is fictitious and the code was intentionally chosen to inflate reimbursement. Both scenarios constitute a billing violation. The EOB processed this as 'Chest X-Ray, 2 Views' at an allowed amount of $350.00, meaning BCBS paid based on an incorrect code.",
+      "estimated_overcharge_amount": 480.0,
+      "regulation_or_rule_violated": "CMS NCCI Policy Manual Chapter 6 \u2013 Radiology (CPT 71046 is chest X-ray, 2 views only); AMA CPT Code Set \u2013 CPT codes must accurately reflect the service rendered; CMS Claims Processing Manual, Chapter 1, Section 30.3 \u2013 Services must be billed with correct CPT codes matching the actual service provided; 42 CFR \u00a71001.701 (False Claims Act implications for intentional miscoding)."
+    },
+    {
+      "line_item": "Line 017 \u2013 Room & Board CCU Night 1 ($950.00), Line 018 \u2013 Room & Board CCU Night 2 ($950.00), Line 019 \u2013 Room & Board CCU Night 3 ($950.00)",
+      "error_type": "INCORRECT_QUANTITY",
+      "description": "The patient was admitted on April 3, 2026 at 11:42 AM and discharged on April 5, 2026 at 2:15 PM \u2013 a documented 2-night stay (the nights of April 3 and April 4). Room & Board has been billed for 3 nights at $950.00 each ($2,850.00 total), but only 2 nights ($1,900.00) are clinically and administratively supported by the admission and discharge records. The third night charge (Line 019, $950.00 on 04/05/2026) is erroneous. The EOB has processed and paid for all 3 nights, meaning BCBS paid $576.00 for the invalid third night and the patient was assessed $144.00 in coinsurance for a night they were not inpatient. The overcharge is $950.00 billed ($720.00 at allowed rate, with $144.00 in improper member coinsurance).",
+      "estimated_overcharge_amount": 950.0,
+      "regulation_or_rule_violated": "CMS Claims Processing Manual, Chapter 3, Section 20.1 \u2013 Inpatient room and board charges must correspond to actual inpatient days; CMS Conditions of Participation 42 CFR \u00a7482.13(e) \u2013 Hospital must maintain accurate records of patient census; OIG Compliance Program Guidance for Hospitals (63 Fed. Reg. 8987) \u2013 Billing for services not rendered or not medically necessary is a false claim."
+    },
+    {
+      "line_item": "Patient Balance Billed: $2,180.00 vs. EOB-Calculated Patient Responsibility: $1,695.00 \u2013 Discrepancy: $485.00",
+      "error_type": "BALANCE_BILLING",
+      "description": "Dallas Regional Medical Center is an in-network provider under the patient's BlueCross BlueShield of Texas PPO Platinum Plan. The EOB clearly calculates the member's total responsibility as $1,695.00 (20% coinsurance of the allowed amount after contractual discounts). However, the provider's bill demands $2,180.00 from the patient \u2014 $485.00 more than the EOB-calculated responsibility. Under the provider's participation agreement with BCBS of Texas, balance billing of the patient beyond their contractual coinsurance is expressly prohibited for in-network providers. This $485.00 excess charge constitutes illegal balance billing under both the federal No Surprises Act and Texas state insurance law. The EOB itself flags this as a 'POTENTIAL BALANCE BILLING VIOLATION.'",
+      "estimated_overcharge_amount": 485.0,
+      "regulation_or_rule_violated": "No Surprises Act, 42 U.S.C. \u00a7300gg-111 (effective January 1, 2022) \u2013 Prohibits balance billing by in-network providers beyond cost-sharing amounts; Texas Insurance Code \u00a71271.155 \u2013 In-network providers may not bill enrollees amounts beyond applicable cost-sharing; BCBS of Texas Provider Participation Agreement \u2013 Contractual prohibition on balance billing in-network members beyond EOB-calculated coinsurance."
+    },
+    {
+      "line_item": "Line 001 (99213, $850.00) AND Line 002 (99215, $1,250.00) \u2013 same provider, same date 04/03/2026",
+      "error_type": "DUPLICATE_CHARGE",
+      "description": "Two separate E/M visit charges (99213 and 99215) were billed by the same provider (Dr. Kevin L. Nguyen, NPI: 2109876543) on the same date of service (04/03/2026) at the same facility for the same patient encounter. This constitutes a duplicate charge for the same category of service regardless of the different code levels. Only a single E/M code may be billed per provider per day per facility. Both the EOB (Lines 001 and 002) and the bill's own billing notes (ERROR 1) acknowledge this duplication. The lower-level code (99213, $850.00) must be voided in its entirety.",
+      "estimated_overcharge_amount": 850.0,
+      "regulation_or_rule_violated": "CMS NCCI Rule [EM-001]; CMS Claims Processing Manual, Chapter 12, Section 30.6.7 \u2013 Only one E/M code permissible per day per provider per facility; AMA CPT Guidelines \u2013 E/M services for same provider/same patient/same date are not separately reportable."
+    },
+    {
+      "line_item": "Line 009 \u2013 J1580, Gentamicin Sulfate 80mg injection x2, $74.00 (04/03/2026)",
+      "error_type": "UPCODING",
+      "description": "HCPCS code J1580 is listed in the bill and EOB as 'Gentamicin Sulfate 80mg injection.' J1580 is the correct HCPCS code for 'Injection, garamycin (gentamicin sulfate), up to 80 mg.' While the code itself is valid, the clinical appropriateness of gentamicin for a patient admitted with acute MI (I21.9) and Type 2 Diabetes (E11.9) with no documented infection, sepsis, or bacterial indication is highly suspect and raises a SERVICE_NOT_RENDERED or medically unnecessary billing concern. Gentamicin is an aminoglycoside antibiotic that is nephrotoxic, particularly in diabetic patients, and would not be standard of care for an acute MI admission absent a specific infectious indication not reflected in the documented diagnoses. This charge should be supported by documented clinical justification tied to an appropriate diagnosis code.",
+      "estimated_overcharge_amount": 74.0,
+      "regulation_or_rule_violated": "CMS Claims Processing Manual, Chapter 1, Section 30.6.14 \u2013 All billed services must be medically necessary and supported by the documented diagnosis; 42 U.S.C. \u00a71395y(a)(1)(A) \u2013 Medicare/insurance exclusion of services not 'reasonable and necessary'; OIG Work Plan \u2013 Scrutiny of drug charges not consistent with admitting diagnosis."
+    },
+    {
+      "line_item": "Line 011 \u2013 CPT 80053, Comprehensive Metabolic Panel, $145.00 AND Line 004 \u2013 CPT 71046 described as 'Routine Blood Panel \u2013 Metabolic Screen', $480.00 (04/03/2026)",
+      "error_type": "DUPLICATE_CHARGE",
+      "description": "If Line 004 (billed under CPT 71046 but described as 'Routine Blood Panel \u2013 Metabolic Screen') actually represents a metabolic panel or chemistry screen, then it is being billed redundantly alongside Line 011 (CPT 80053, Comprehensive Metabolic Panel) on the same date. If the description on Line 004 is accurate (i.e., it is truly a metabolic screen), it duplicates Line 011 and both cannot be billed together. If Line 004 is truly a chest X-ray (as the CPT code 71046 indicates), then the description is fraudulently wrong (see separate UPCODING error). In either interpretation, a billing error exists on Line 004.",
+      "estimated_overcharge_amount": 480.0,
+      "regulation_or_rule_violated": "CMS NCCI Rule [LAB-001] \u2013 Comprehensive metabolic panel (80053) and component/duplicate tests cannot be billed together; CMS Claims Processing Manual Chapter 12 \u2013 Duplicate billing prohibition; AMA CPT Guidelines \u2013 Services rendered once may only be billed once per date of service."
+    }
+  ],
+  "total_estimated_overcharge": 4919.0,
+  "summary": "A comprehensive audit of the Dallas Regional Medical Center bill (Account ACCT-2026-55814) for patient John Martinez (04/03/2026\u201304/05/2026) identified eight distinct billing errors spanning unbundling, upcoding, duplicate charges, incorrect quantity, and illegal balance billing. The most significant violations include: (1) dual E/M codes 99213 and 99215 billed by the same provider on the same day in violation of CMS NCCI Rule EM-001 ($850.00 overcharge); (2) both E/M codes billed as outpatient visit codes when the patient was admitted inpatient for acute MI, requiring initial hospital care codes 99221\u201399223 instead; (3) CPT 71046 (chest X-ray) applied to a line item described as a metabolic blood panel, constituting a clear CPT/description mismatch and potential duplicate of the separately billed 80053; (4) a third night of Room & Board ($950.00) billed for a documented 2-night stay; and (5) the provider billing the patient $2,180.00 when the EOB-calculated patient responsibility is $1,695.00, a $485.00 balance billing violation prohibited by the No Surprises Act and Texas Insurance Code for this in-network provider. Total estimated overcharges across all identified errors reach approximately $4,919.00, and the patient is strongly advised to dispute this bill with BCBS of Texas Member Services and request a full itemized review before making any payment."
+}

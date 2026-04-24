@@ -1,0 +1,101 @@
+{
+  "bundling_rules": [
+    {
+      "rule_id": "EM-001",
+      "description": "Only one E/M code may be billed per day per provider at the same facility. Billing 99213 and 99215 (or any two E/M codes) on the same day by the same provider is unbundling.",
+      "codes": ["99211", "99212", "99213", "99214", "99215"],
+      "violation": "Two or more codes from this set billed same day same provider",
+      "correct_code": "Highest-level E/M code only",
+      "cms_reference": "CMS Claims Processing Manual, Chapter 12, Section 30.6.7"
+    },
+    {
+      "rule_id": "ED-001",
+      "description": "Only one ED E/M code may be billed per encounter. Billing 99283 and 99285 together is unbundling.",
+      "codes": ["99281", "99282", "99283", "99284", "99285"],
+      "violation": "Two or more ED E/M codes billed for same encounter",
+      "correct_code": "Highest-level ED E/M code only",
+      "cms_reference": "CMS Claims Processing Manual, Chapter 12, Section 30.6.9"
+    },
+    {
+      "rule_id": "CBC-001",
+      "description": "CPT 85025 (CBC with auto differential) already includes 85027 (CBC without differential). Billing both is unbundling.",
+      "codes": ["85025", "85027"],
+      "violation": "85025 and 85027 billed together",
+      "correct_code": "85025 only",
+      "cms_reference": "CMS NCCI Policy Manual Chapter 9 - Pathology"
+    },
+    {
+      "rule_id": "ECG-001",
+      "description": "CPT 93000 (ECG routine, 12-lead, with interpretation and report) includes 93005 (ECG tracing only). Cannot bill both.",
+      "codes": ["93000", "93005", "93010"],
+      "violation": "93000 and 93005 (or 93010) billed together",
+      "correct_code": "93000 only",
+      "cms_reference": "CMS NCCI Edits - Cardiology Chapter"
+    },
+    {
+      "rule_id": "CHEST-001",
+      "description": "CPT 71048 (Chest X-ray, 4+ views) includes 71046 (2 views). Cannot bill both for the same encounter.",
+      "codes": ["71045", "71046", "71047", "71048"],
+      "violation": "Multiple chest X-ray codes billed for same date",
+      "correct_code": "Highest view count code only",
+      "cms_reference": "CMS NCCI Policy Manual Chapter 6 - Radiology"
+    },
+    {
+      "rule_id": "ANES-001",
+      "description": "Anesthesia code 00840 includes monitoring codes 99100 and 99116 when performed by the same provider.",
+      "codes": ["00840", "99100", "99116"],
+      "violation": "Anesthesia base code billed with qualifying circumstance codes",
+      "correct_code": "Anesthesia base code with appropriate qualifying circumstances only if add-on",
+      "cms_reference": "CMS Claims Processing Manual Chapter 12, Anesthesia Services"
+    },
+    {
+      "rule_id": "SURG-001",
+      "description": "Surgical procedure 27447 (Total knee arthroplasty) includes arthrotomy 27310. Cannot bill both.",
+      "codes": ["27447", "27310"],
+      "violation": "27310 billed with 27447 on same day",
+      "correct_code": "27447 only",
+      "cms_reference": "CMS NCCI Policy Manual Chapter 5 - Musculoskeletal"
+    },
+    {
+      "rule_id": "HOSP-001",
+      "description": "Only one initial hospital care code (99221-99223) may be billed per admission. Billing multiple initial hospital codes is unbundling.",
+      "codes": ["99221", "99222", "99223"],
+      "violation": "Multiple initial hospital care codes billed for same admission",
+      "correct_code": "Single highest-level initial hospital care code",
+      "cms_reference": "CMS Claims Processing Manual Chapter 12, Section 30.6.8"
+    },
+    {
+      "rule_id": "INJ-001",
+      "description": "96374 (Therapeutic IV push, single drug) and 96365 (IV infusion, initial hour) should not both be billed when only one administration method was used.",
+      "codes": ["96374", "96375", "96365"],
+      "violation": "Both IV push and IV infusion codes billed when only one method used",
+      "correct_code": "96374 or 96365 based on actual administration method",
+      "cms_reference": "CMS Claims Processing Manual Chapter 12, Section 30.5"
+    },
+    {
+      "rule_id": "LAB-001",
+      "description": "CPT 80053 (Comprehensive metabolic panel) already includes individual chemistry tests 82040, 82247, 82248, 82310, 82374, 82435, 82565, 82947, 84132, 84295, 84460, 84450. Billing panel AND individual components is unbundling.",
+      "codes": ["80053", "82040", "82247", "82248", "82310", "82374", "82435", "82565", "82947", "84132", "84295"],
+      "violation": "Comprehensive metabolic panel billed alongside its component tests",
+      "correct_code": "80053 only, do not bill individual components",
+      "cms_reference": "CMS NCCI Policy Manual Chapter 9 - Clinical Lab Panel Unbundling"
+    }
+  ],
+  "upcoding_patterns": [
+    {
+      "pattern_id": "UP-001",
+      "description": "99215 (high complexity E/M, 40+ min) billed for routine follow-up visits that should be 99213 or 99214",
+      "flags": ["routine follow-up", "medication refill", "brief visit", "simple problem"]
+    },
+    {
+      "pattern_id": "UP-002",
+      "description": "99223 (high complexity initial hospital care) billed when documentation only supports 99221 or 99222",
+      "flags": ["simple admission", "observation only", "minor complaint"]
+    },
+    {
+      "pattern_id": "UP-003",
+      "description": "99285 (high complexity ED visit) billed for low-acuity ED visits",
+      "flags": ["minor injury", "routine complaint", "simple laceration", "cold or flu"]
+    }
+  ]
+}

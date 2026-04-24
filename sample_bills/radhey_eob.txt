@@ -1,0 +1,108 @@
+================================================================================
+                         AETNA BETTER HEALTH PPO
+                    151 Farmington Ave., Hartford, CT 06156
+                       Customer Service: 1-800-872-3862
+                       www.aetna.com
+================================================================================
+
+                    EXPLANATION OF BENEFITS (EOB)
+                    This is NOT a bill. Please retain for your records.
+
+--------------------------------------------------------------------------------
+MEMBER INFORMATION
+--------------------------------------------------------------------------------
+Member Name:          RADHEY K. SHARMA
+Member ID:            AET-IL-7743920
+Group Number:         GRP-88301
+Group Name:           Sharma Enterprises LLC Health Plan
+Plan Type:            PPO Silver Plan
+Claim Number:         CLM-2026-AET-881043
+Date Processed:       April 16, 2026
+
+--------------------------------------------------------------------------------
+PROVIDER INFORMATION
+--------------------------------------------------------------------------------
+Provider:             NORTHWESTERN MEMORIAL HOSPITAL
+Provider NPI:         1104819786
+Claim Dates:          April 2, 2026 - April 4, 2026
+
+--------------------------------------------------------------------------------
+BENEFIT EXPLANATION
+--------------------------------------------------------------------------------
+
+LINE  CPT     SERVICE DESCRIPTION            BILLED      ALLOWED  DISCOUNT  PLAN PAID  COPAY/COINS
+----  ------  ----------------------------  ----------  --------  --------  ---------  -----------
+001   27447   Total Knee Arthroplasty       $14,200.00  $9,800.00 $4,400.00 $7,840.00  $1,960.00
+002   29881   Knee Arthroscopy w/ Menisect   $3,100.00      $0.00 $3,100.00     $0.00      $0.00  (NCCI bundled - denied)
+003   00400   Anesthesia, extremity          $1,850.00  $1,320.00   $530.00 $1,056.00    $264.00
+004   L8699   Knee Implant x2 (billed)       $5,600.00  $2,800.00 $2,800.00 $2,240.00    $560.00  (allowed 1 unit only)
+005   97110   Therapeutic Exercise           $95.00       $68.00    $27.00    $54.40     $13.60
+006   97110   Therapeutic Exercise (DUP)     $95.00        $0.00    $95.00     $0.00      $0.00  (duplicate - denied)
+007   20610   Aspiration/Inj, Major Joint   $215.00      $158.00    $57.00   $126.40     $31.60
+008   J7325   Hyaluronan per dose           $310.00      $228.00    $82.00   $182.40     $45.60
+009   99232   Subsequent Hospital Care      $195.00      $142.00    $53.00   $113.60     $28.40
+010   99232   Subsequent HC (DUP)           $195.00        $0.00   $195.00     $0.00      $0.00  (duplicate - denied)
+011   97002   PT Re-evaluation              $145.00      $105.00    $40.00    $84.00     $21.00
+012   72148   MRI Lumbar Spine              $980.00      $710.00   $270.00   $568.00    $142.00
+013   27370   Knee Arthrogram Injection     $275.00      $198.00    $77.00   $158.40     $39.60
+014   96360   IV Infusion, Hydration        $185.00      $134.00    $51.00   $107.20     $26.80
+015   J1644   Heparin Sodium x5            $125.00       $96.00    $29.00    $76.80     $19.20
+016   J2001   Lidocaine HCl x2              $48.00        $36.00    $12.00    $28.80      $7.20
+017   N/A     Room & Board (2 nights)     $3,200.00    $2,400.00   $800.00 $1,920.00    $480.00  (billed 2, should be 1)
+018   N/A     Operating Room Services     $4,500.00    $3,200.00 $1,300.00 $2,560.00    $640.00
+019   N/A     Surgical Supplies             $820.00      $590.00   $230.00   $472.00    $118.00
+020   N/A     Pharmacy - Oral Meds          $230.00      $168.00    $62.00   $134.40     $33.60
+----  ------  ----------------------------  ----------  --------  --------  ---------  -----------
+
+--------------------------------------------------------------------------------
+BENEFIT SUMMARY
+--------------------------------------------------------------------------------
+Total Amount Billed by Provider:                                   $36,363.00
+Total Contractual Discounts/Adjustments:                          -$14,110.00
+Total Amount Plan Allowed:                                         $22,253.00
+Total Amount Plan Paid (80% of allowed):                           $17,802.40  <-- Insurance Paid
+Total Member Responsibility (20% coinsurance):                      $4,450.60  <-- Correct Patient Owes
+
+--------------------------------------------------------------------------------
+MEMBER BALANCE DUE TO PROVIDER
+--------------------------------------------------------------------------------
+  Per EOB Calculation: $22,253.00 - $17,802.40 = $4,450.60
+  Amount Provider is Billing Patient:                               $6,100.00  *** DISCREPANCY ***
+
+  NOTE: The amount the provider is billing you ($6,100.00) does NOT match
+  your calculated patient responsibility ($4,450.60) per this EOB.
+  DIFFERENCE: $1,649.40 potential balance billing error.
+
+  Your deductible for this plan year has been met: YES
+  Out-of-pocket maximum remaining: $2,200.00
+
+  DENIED LINES:
+  - Line 002 (29881): Denied - NCCI Edit. Arthroscopy is bundled into
+    Total Knee Arthroplasty (27447). Not separately reimbursable.
+  - Line 006 (97110): Denied - Duplicate charge, same CPT, same date, same provider.
+  - Line 010 (99232): Denied - Duplicate charge, same CPT, same date, same provider.
+  - Line 004 (L8699): Allowed for 1 unit only. Operative report confirms
+    right knee replacement only (1 implant unit).
+
+--------------------------------------------------------------------------------
+IMPORTANT NOTICES
+--------------------------------------------------------------------------------
+This is an in-network provider. Balance billing beyond your calculated
+coinsurance is prohibited under your plan and Illinois state law.
+
+Under the No Surprises Act (effective Jan 1, 2022), you have the right to
+dispute unexpected medical bills. Contact us at 1-800-872-3862.
+
+If you believe there is a billing error, you have 180 days from the date
+of this EOB to dispute charges.
+
+--------------------------------------------------------------------------------
+PROVIDER REMITTANCE SUMMARY
+--------------------------------------------------------------------------------
+Provider was paid:     $17,802.40
+Check/EFT Number:      EFT-2026-AET-44801
+Payment Date:          April 18, 2026
+
+================================================================================
+Questions? Call Member Services: 1-800-872-3862 (Mon-Fri 8am-8pm CT)
+================================================================================
