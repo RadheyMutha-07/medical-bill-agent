@@ -1,6 +1,6 @@
 # Environment variables — never commit the real key
 .env
-
+.claude
 # Python
 __pycache__/
 *.pyc

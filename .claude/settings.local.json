@@ -5,7 +5,8 @@
       "Bash(python -)",
       "Bash(python -c \"import streamlit, plotly, pandas; print\\('All imports OK'\\)\")",
       "Bash(streamlit run *)",
-      "Bash(python -c \"import dotenv; print\\('dotenv installed'\\)\")"
+      "Bash(python -c \"import dotenv; print\\('dotenv installed'\\)\")",
+      "Bash(python -m streamlit run app.py)"
     ]
   }
 }
